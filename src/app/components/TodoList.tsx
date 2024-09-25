@@ -13,7 +13,7 @@ const TodoList: React.FC<TodoListProps> = ({ tasks }) => {
         <thead>
           <tr>
             <th>Tasks</th>
-            <th>Actions</th>
+            <th style={{ width: "10%" }}>Actions</th>
           </tr>
         </thead>
         <tbody>
